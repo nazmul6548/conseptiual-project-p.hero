@@ -66,6 +66,8 @@ body{
 .cow-img img{
     width: 33%;
     height: 600px;
+    padding: 1%;
+    
 }
 span{
     color: bisque;
@@ -74,4 +76,51 @@ span{
     padding: 8px 25px;
     border-radius: 20px;
     letter-spacing: 10px;
+}
+
+.sec{
+    /* background-color: burlywood; */
+    padding-bottom: 30px;
+}
+.flag{
+    width: 500px;
+    height: 280px;
+    background-color: green;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    left: 40%;
+}
+.flag-circle{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stand{
+    width: 15px;
+    height: 600px;
+    background-color: black;
+    position: absolute;
+}
+.siri{
+    width: 40px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+    transform: translate(-30%,-40%);
+}
+.siri-2{
+    width: 80px;
+    height: 30px;
+    background-color: #000;
+    position: relative;
+    top:100%;
+    transform: translate(-25%,-10%);
+    
 }
