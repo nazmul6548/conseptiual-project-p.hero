@@ -88,7 +88,7 @@ span{
     background-color: green;
     border-radius: 10px;
     position: relative;
-    top: 50px;
+    top: 50%;
     left: 40%;
 }
 .flag-circle{
@@ -105,15 +105,17 @@ span{
     width: 15px;
     height: 600px;
     background-color: black;
-    position: absolute;
+    position: relative;
+    
 }
 .siri{
     width: 40px;
     height: 20px;
     background-color: black;
-    position: relative;
+    position: absolute;
     top: 100%;
-    transform: translate(-30%,-40%);
+    left: 50%;
+    transform: translate(-50%);
 }
 .siri-2{
     width: 80px;
