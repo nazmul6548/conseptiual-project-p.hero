@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:ital@1&family=Kalnia:wght@200;300&family=Rubik+Maps&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Maps', system-ui;
+}
+.cow-banner{
+    background: url(./img/gabriel-porras-nUCt1PjRNHE-unsplash.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.cow-banner h1{
+    font-size: 100px;
+    color:rgb(29, 3, 55);
+    /* text-align: center; */
+    /* padding-top: 60px; */
+    word-spacing: 60px;
+    letter-spacing: 15px;
+    border-bottom: 2px solid green;
+    display:inline-block;
+    
+    
+}
