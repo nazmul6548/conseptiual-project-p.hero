@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik Maps', system-ui;
+    
+    
+}
+body{
+    background: linear-gradient(purple,#ff3300, blue);
 }
 .cow-banner{
     background: url(./img/gabriel-porras-nUCt1PjRNHE-unsplash.jpg);
@@ -12,10 +17,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+   
 }
 .cow-banner h1{
     font-size: 100px;
-    color:rgb(29, 3, 55);
+    color:rgb(2, 0, 102);
     /* text-align: center; */
     /* padding-top: 60px; */
     word-spacing: 60px;
@@ -24,4 +31,47 @@
     display:inline-block;
     
     
+}
+
+.cow-text h1{
+    text-align: center;
+    font-size: 45px;
+    padding: 30px;
+    font-family: 'Bungee Spice', sans-serif;
+    font-weight: 800;
+}
+.cow-text p{
+    background-color: rgb(3, 52, 52);
+    border: 2px solid yellow;
+    width:   90% ;
+   margin-left: auto;
+   margin-right: auto;
+    text-align: justify;
+    font-family: 'Bungee Spice', sans-serif;
+    padding: 15px;
+    color: antiquewhite;
+   
+}
+.cow-h1 h1{
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+    padding: 50px;
+    font-weight: 800;
+
+}
+.cow-img{
+   padding: 40px;
+}
+.cow-img img{
+    width: 33%;
+    height: 600px;
+}
+span{
+    color: bisque;
+    font-family: 'Bungee Spice', sans-serif;
+    background:linear-gradient( purple,red,blue);
+    padding: 8px 25px;
+    border-radius: 20px;
+    letter-spacing: 10px;
 }
